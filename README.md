@@ -22,6 +22,11 @@
     3. 特征工程：选取性别，歌曲数目，相关的页面等特征
     4. 建模并预测
 ### 项目结果：
+结果比较：
+- LogisticRegression (best f1 score 0.7714)
+- GBTClassifier (best f1 score 0.7214 )
+- RandomForestClassifier (best f1 score 0.7276)
+
 采用logistice regression, random forest,GBTClassifier三种监督学习模型，logistice regression效果较好，f1_score为0.77
 ### 反思和改进：
     1. 一开始想在原始数据上进行建模，后来发现独立出来后join比较方便
